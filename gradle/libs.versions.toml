@@ -36,6 +36,6 @@ espresso-core = { group = "com.android.support.test.espresso", name = "espresso-
 appcompat-v7 = { group = "com.android.support", name = "appcompat-v7", version.ref = "appcompatV7" }
 
 [plugins]
-androidApplication = { id = "com.android.application", version = "8.0.0" }
-androidLibrary = { id = "com.android.library", version = "8.0.0" }
+androidApplication = { id = "com.android.application", version = "8.0.2" }
+androidLibrary = { id = "com.android.library", version = "8.0.2" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version = "1.9.0" }

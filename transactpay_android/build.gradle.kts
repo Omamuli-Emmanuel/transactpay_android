@@ -1,7 +1,6 @@
 plugins {
     id("com.android.library")
-    id("android-maven")
-    id("kotlin-android")
+    id("maven-publish")
     id("kotlin-android-extensions")
 }
 
@@ -60,8 +59,7 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
-afterEvaluate {
-    publishing {
+publishing {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
@@ -105,7 +103,9 @@ afterEvaluate {
             }
         }
     }
-}
+
+
+
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
@@ -132,6 +132,4 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
-    // Add this line to include your library dependency
-//    implementation("com.github.Omamuli-Emmanuel:paywithtransactpay_android:0.0.1")
 }

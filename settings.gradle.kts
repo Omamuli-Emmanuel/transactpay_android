@@ -18,5 +18,3 @@ dependencyResolutionManagement {
     }
 }
 include(":app")
-include(":mylibrary")
-include(":transactpay_android")

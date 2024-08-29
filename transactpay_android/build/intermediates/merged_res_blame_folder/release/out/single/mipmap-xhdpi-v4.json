@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/mipmap-xhdpi-v4/ic_launcher_round.webp",
+        "source": "com.transactpay.transactpay_android-main-40:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/mipmap-xhdpi-v4/ic_launcher.webp",
+        "source": "com.transactpay.transactpay_android-main-40:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]

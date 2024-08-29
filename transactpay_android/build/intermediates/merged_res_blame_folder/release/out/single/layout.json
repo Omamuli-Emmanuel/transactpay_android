@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/selectbank.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/selectbank.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/processingpage.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/processingpage.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/notification_template_part_time.xml",
+        "source": "com.transactpay.transactpay_android-core-1.10.0-30:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/custom_dialog.xml",
+        "source": "com.transactpay.transactpay_android-core-1.10.0-30:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/cardauthentication.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/cardauthentication.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/activity_card.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/activity_card.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/notification_template_part_chronometer.xml",
+        "source": "com.transactpay.transactpay_android-core-1.10.0-30:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/spinner_item.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/transactpay_start.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/transactpay_start.xml"
+    },
+    {
+        "merged": "com.transactpay.transactpay_android-merged_res-39:/layout/bank_transfer.xml",
+        "source": "com.transactpay.transactpay_android-main-40:/layout/bank_transfer.xml"
+    }
+]

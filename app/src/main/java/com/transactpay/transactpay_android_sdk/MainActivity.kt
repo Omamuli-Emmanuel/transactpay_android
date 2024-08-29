@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import com.transactpay.newtransactpay.R
-import com.transactpay.transactpay_android.PayWithTransactpay
+//import com.transactpay.transactpay_android.PayWithTransactpay
 
 class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,20 +40,20 @@ class MainActivity : AppCompatActivity() {
                 val apiKey : String = "PGW-PUBLICKEY-43E1CE8C6A7149CE94A8A71D572AE414"
                // initiate pay with transct pay library
 
-                val intent = PayWithTransactpay.newIntent(
-                    context = this@MainActivity,
-                    firstName = fname,
-                    lastName = lname,
-                    phone = phoneNumber,
-                    amount = amount,
-                    email = email,
-                    apiKey = apiKey,
-                    EncryptionKey = encryptKey,
-                    initiatingActivityClass = MainActivity::class.java,
-                    successClass = Success::class.java,
-                    failureClass = Failed::class.java
-                )
-                startActivity(intent)
+//                val intent = PayWithTransactpay.newIntent(
+//                    context = this@MainActivity,
+//                    firstName = fname,
+//                    lastName = lname,
+//                    phone = phoneNumber,
+//                    amount = amount,
+//                    email = email,
+//                    apiKey = apiKey,
+//                    EncryptionKey = encryptKey,
+//                    initiatingActivityClass = MainActivity::class.java,
+//                    successClass = Success::class.java,
+//                    failureClass = Failed::class.java
+//                )
+//                startActivity(intent)
               //   Create an intent to start the next activity
             }
         }

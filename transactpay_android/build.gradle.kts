@@ -55,7 +55,6 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
-afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
@@ -100,8 +99,6 @@ afterEvaluate {
             }
         }
     }
-
-}
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")

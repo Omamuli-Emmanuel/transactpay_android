@@ -24,13 +24,13 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 
     buildFeatures {
         compose = true
@@ -46,10 +46,6 @@ android {
         }
     }
 
-//    lint {
-//        targetSdk = 34
-//    }
-
     testOptions {
         unitTests.isIncludeAndroidResources = true
     }
@@ -60,49 +56,49 @@ tasks.register<Wrapper>("wrapper") {
 }
 
 publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
+    publications {
+        create<MavenPublication>("release") {
+            from(components["release"])
 
-                groupId = "com.github.Omamuli-Emmanuel"
-                artifactId = "pay_with_transact_pay"
-                version = "0.0.1"
+            groupId = "com.github.Omamuli-Emmanuel"
+            artifactId = "pay_with_transact_pay"
+            version = "0.0.1"
 
-                pom {
-                    name.set("Transactpay Native Android SDK")
-                    description.set("Native Android SDK for Transactpay, built with Kotlin")
+            pom {
+                name.set("Transactpay Native Android SDK")
+                description.set("Native Android SDK for Transactpay, built with Kotlin")
+                url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
+
+                licenses {
+                    license {
+                        name.set("The Apache License, Version 2.0")
+                        url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                    }
+                }
+
+                developers {
+                    developer {
+                        id.set("Omamuli-Emmanuel")
+                        name.set("Emmanuel Omamuli")
+                        email.set("omamuli.emmanuel@gmail.com")
+                    }
+                }
+
+                scm {
+                    connection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
+                    developerConnection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
                     url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
-
-                    licenses {
-                        license {
-                            name.set("The Apache License, Version 2.0")
-                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-                        }
-                    }
-
-                    developers {
-                        developer {
-                            id.set("Omamuli-Emmanuel")
-                            name.set("Emmanuel Omamuli")
-                            email.set("omamuli.emmanuel@gmail.com")
-                        }
-                    }
-
-                    scm {
-                        connection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
-                        developerConnection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
-                        url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
-                    }
                 }
             }
         }
+    }
 
-        repositories {
-            maven {
-                url = uri("https://jitpack.io")
-            }
+    repositories {
+        maven {
+            url = uri("https://jitpack.io")
         }
     }
+}
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")
@@ -128,5 +124,4 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-
 }

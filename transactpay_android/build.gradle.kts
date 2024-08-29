@@ -1,6 +1,6 @@
 plugins {
     id("com.android.library")
-    id("kotlin-android-extensions")
+    id("kotlin-android")
     id("maven-publish")
 }
 
@@ -55,11 +55,11 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
+afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
                 from(components["release"])
-
                 groupId = "com.github.Omamuli-Emmanuel"
                 artifactId = "pay_with_transact_pay"
                 version = "0.0.1"
@@ -99,6 +99,7 @@ tasks.register<Wrapper>("wrapper") {
             }
         }
     }
+}
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")

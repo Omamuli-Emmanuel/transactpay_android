@@ -3,4 +3,5 @@ jdk:
   - openjdk17
 
 env:
-  JAVA_HOME: /usr/local/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home
+  JAVA_HOME: /usr/local/Cellar/openjdk@17/17.0.12
+

@@ -60,7 +60,7 @@ afterEvaluate{
             create<MavenPublication>("maven") {
                 from(components["release"])  // Use the correct component for your build type
                 groupId = "com.github.Omamuli-Emmanuel"
-                artifactId = "pay_with_transact_pay"
+                artifactId = "transactpay_android"
                 version = "0.0.1"
 
                 pom {

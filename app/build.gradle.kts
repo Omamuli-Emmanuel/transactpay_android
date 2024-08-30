@@ -1,7 +1,6 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    id("maven-publish")
 }
 
 android {
@@ -50,9 +49,8 @@ android {
     }
 }
 
-
-
 dependencies{
+    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.3.0-stable")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

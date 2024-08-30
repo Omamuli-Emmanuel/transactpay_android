@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import com.transactpay.newtransactpay.R
+import com.transactpay.transactpay_android.PayWithTransactpay
+
 //import com.transactpay.transactpay_android.PayWithTransactpay
 
 class MainActivity : AppCompatActivity() {

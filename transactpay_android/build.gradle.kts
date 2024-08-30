@@ -14,7 +14,7 @@ android {
     }
 
     buildTypes {
-        getByName("release") {
+        release {
             isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -28,7 +28,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = "1.8"
     }
 
     buildFeatures {
@@ -54,11 +54,11 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
-afterEvaluate {
+afterEvaluate{
     publishing {
         publications {
             create<MavenPublication>("maven") {
-                from(components["release"])
+                from(components["release"])  // Use the correct component for your build type
                 groupId = "com.github.Omamuli-Emmanuel"
                 artifactId = "pay_with_transact_pay"
                 version = "0.0.1"
@@ -93,9 +93,7 @@ afterEvaluate {
         }
 
         repositories {
-            maven {
-                url = uri("https://jitpack.io")
-            }
+            mavenLocal()
         }
     }
 }

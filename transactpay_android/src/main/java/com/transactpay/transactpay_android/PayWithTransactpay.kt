@@ -23,11 +23,11 @@ import org.json.JSONObject
 import java.text.NumberFormat
 import java.util.*
 
-class PayWithTransactpay : AppCompatActivity() {
+public class PayWithTransactpay : AppCompatActivity() {
 
     companion object {
         private const val TAG = "ProcessingPage"
-
+          @JvmStatic
          public fun newIntent(  // Explicitly made public
             context: Context,
             firstName: String,

@@ -47,6 +47,7 @@ val intent = PayWithTransactpay.newIntent(
     amount = "1000.0", // Amount in your currency
     email = "johndoe@example.com",
     apiKey = "your_api_key_here",
+    transactionRef = "String - optional",
     EncryptionKey = "your_encryption_key_here",
     initiatingActivityClass = MainActivity::class.java, //redirect user when the user cancels the transaction
     successClass = Success::class.java, // redirect user when transaction is successful

@@ -28,7 +28,7 @@ class PayWithTransactpay : AppCompatActivity() {
     companion object {
         private const val TAG = "ProcessingPage"
 
-        fun newIntent(
+         public fun newIntent(  // Explicitly made public
             context: Context,
             firstName: String,
             lastName: String,
@@ -40,7 +40,7 @@ class PayWithTransactpay : AppCompatActivity() {
             initiatingActivityClass: Class<*>,
             successClass: Class<*>,
             failureClass: Class<*>,
-            transactionRef : String
+            transactionRef: String
         ): Intent {
             return Intent(context, PayWithTransactpay::class.java).apply {
                 putExtra("Fname", firstName)

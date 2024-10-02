@@ -39,7 +39,8 @@ class PayWithTransactpay : AppCompatActivity() {
             EncryptionKey: String,
             initiatingActivityClass: Class<*>,
             successClass: Class<*>,
-            failureClass: Class<*>
+            failureClass: Class<*>,
+            transactionRef : String
         ): Intent {
             return Intent(context, PayWithTransactpay::class.java).apply {
                 putExtra("Fname", firstName)
@@ -52,6 +53,7 @@ class PayWithTransactpay : AppCompatActivity() {
                 putExtra("INITIATING_ACTIVITY_CLASS", initiatingActivityClass)
                 putExtra("SUCCESS_CLASS", successClass)
                 putExtra("FAILURE_CLASS", failureClass)
+                putExtra("TransactionRef", transactionRef)
             }
         }
     }
@@ -69,6 +71,7 @@ class PayWithTransactpay : AppCompatActivity() {
         val email = intent.getStringExtra("EMAIL") ?: ""
         val apiKey = intent.getStringExtra("API_KEY") ?: ""
         val hashKey = intent.getStringExtra("XMLKEY") ?: ""
+        val transactionRef = intent.getStringExtra("TransactionRef") ?: ""
         val initiatingClass = intent.getSerializableExtra("INITIATING_ACTIVITY_CLASS") as Class<*>
         val successClass = intent.getSerializableExtra("SUCCESS_CLASS") as Class<*>
         val failureClass = intent.getSerializableExtra("FAILURE_CLASS") as Class<*>
@@ -87,7 +90,12 @@ class PayWithTransactpay : AppCompatActivity() {
         } ?: "Invalid amount"
 
         // Generate a reference number
-        val referenceNumber = generateReferenceNumber()
+        var referenceNumber = ""
+        if(transactionRef == ""){
+            referenceNumber = generateReferenceNumber()
+        }else{
+            referenceNumber = transactionRef
+        }
 
         val rsaPublicKeyXml = EncryptionUtils.decodeBase64AndExtractKey(hashKey)
         val url = "$baseurl/order/create"

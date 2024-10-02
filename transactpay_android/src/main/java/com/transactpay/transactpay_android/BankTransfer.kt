@@ -28,7 +28,7 @@ import java.util.Locale
 class BankTransfer : AppCompatActivity() {
 
     private lateinit var countdownTextView: TextView
-    private var orderStatus: Boolean = true
+    private var orderStatus: String = "Pending"
 
     @SuppressLint("MissingInflatedId", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -87,14 +87,15 @@ class BankTransfer : AppCompatActivity() {
 
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                while (orderStatus) {
+                while (orderStatus == "Pending") {
+
                     delay(10_000L) // Poll every 10 seconds
                     try {
                         val response = pollCheckTransaction(urlBank, apiKey.toString(), rsaPublicKeyXml, referenceNumber)
                         val jObject = JSONObject(response)
 
                         if (jObject.getString("status") == "Successful") {
-                            orderStatus = false
+                            orderStatus = "Success"
 
                             withContext(Dispatchers.Main) {
                                 // Convert JSONObject to String
@@ -108,6 +109,7 @@ class BankTransfer : AppCompatActivity() {
                                 finish() // Optional: finish the current activity if you don't need it anymore
                             }
                         }else if (jObject.getString("status") == "failed"){
+                            orderStatus = "Failed"
                             withContext(Dispatchers.Main) {
                                 // Create an Intent to start the Success Activity
                                 val intent = Intent(this@BankTransfer, failed).apply {

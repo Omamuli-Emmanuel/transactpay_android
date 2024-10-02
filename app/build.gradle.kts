@@ -50,7 +50,7 @@ android {
 }
 
 dependencies{
-    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.3.0-stable")
+    implementation(project(":transactpay_android"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

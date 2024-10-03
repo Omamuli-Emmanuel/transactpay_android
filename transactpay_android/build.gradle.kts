@@ -52,18 +52,14 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
-afterEvaluate{
+afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
-//            from(components["transactpay_android-release"]) Use 'android' as the component for library publishing
-
-                artifact("/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/outputs/aar/transactpay_android.aar")
-
+                artifact("$buildDir/outputs/aar/${project.name}-release.aar")
                 groupId = "com.github.Omamuli-Emmanuel"
                 artifactId = "transactpay_android"
                 version = "0.0.1"
-
 
                 pom {
                     name.set("Transactpay Native Android SDK")
@@ -99,7 +95,6 @@ afterEvaluate{
         }
     }
 }
-
 
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0")

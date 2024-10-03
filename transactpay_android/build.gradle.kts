@@ -52,47 +52,51 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-//            from(components["transactpay_android-release"])  // Use 'android' as the component for library publishing
-            groupId = "com.github.Omamuli-Emmanuel"
-            artifactId = "transactpay_android"
-            version = "0.0.1"
+afterEvaluate{
+    publishing {
+        publications {
+            create<MavenPublication>("maven") {
+//            from(components["transactpay_android-release"]) Use 'android' as the component for library publishing
 
-            artifact("/tansactpay_android/build/outputs/aar/transactpay_android-release.aar")
+                artifact("/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/outputs/aar/transactpay_android.aar")
 
-            pom {
-                name.set("Transactpay Native Android SDK")
-                description.set("Native Android SDK for Transactpay, built with Kotlin")
-                url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
+                groupId = "com.github.Omamuli-Emmanuel"
+                artifactId = "transactpay_android"
+                version = "0.0.1"
 
-                licenses {
-                    license {
-                        name.set("The Apache License, Version 2.0")
-                        url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
-                    }
-                }
 
-                developers {
-                    developer {
-                        id.set("Omamuli-Emmanuel")
-                        name.set("Emmanuel Omamuli")
-                        email.set("omamuli.emmanuel@gmail.com")
-                    }
-                }
-
-                scm {
-                    connection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
-                    developerConnection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
+                pom {
+                    name.set("Transactpay Native Android SDK")
+                    description.set("Native Android SDK for Transactpay, built with Kotlin")
                     url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
+
+                    licenses {
+                        license {
+                            name.set("The Apache License, Version 2.0")
+                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                        }
+                    }
+
+                    developers {
+                        developer {
+                            id.set("Omamuli-Emmanuel")
+                            name.set("Emmanuel Omamuli")
+                            email.set("omamuli.emmanuel@gmail.com")
+                        }
+                    }
+
+                    scm {
+                        connection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
+                        developerConnection.set("scm:git@github.com:Omamuli-Emmanuel/paywithtransactpay_android.git")
+                        url.set("https://github.com/Omamuli-Emmanuel/paywithtransactpay_android")
+                    }
                 }
             }
         }
-    }
 
-    repositories {
-        mavenLocal()
+        repositories {
+            mavenLocal()
+        }
     }
 }
 

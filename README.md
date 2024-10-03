@@ -1,4 +1,4 @@
-# Transactpay Android SDK Integration - v0.5.8-stable
+# Transactpay Android SDK Integration - v0.6.0-stable-beta
 
 The **Transactpay Android SDK** simplifies payment processing by providing a seamless way to initiate transactions with encryption support. This guide will walk you through the setup and usage of the SDK in your Android app.
 

@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.transactpay.transactpay_android.BankTransfer.Companion
+import com.transactpay.transactpay_android.BankTransfer.Companion.TAG
 import com.transactpay.transactpay_android.EncryptionUtils
 import com.transactpay.transactpay_android.R
 import com.transactpay.transactpay_android.Transactpay_start
@@ -23,12 +24,13 @@ import org.json.JSONObject
 import java.text.NumberFormat
 import java.util.*
 
-public class PayWithTransactpay : AppCompatActivity() {
+class PayWithTransactpay : AppCompatActivity() {
 
-    companion object {
+    object PayWithTransactpayUtils {
         private const val TAG = "ProcessingPage"
-          @JvmStatic
-         public fun newIntent(  // Explicitly made public
+
+        @JvmStatic
+        fun newIntent(  // Explicitly made public
             context: Context,
             firstName: String,
             lastName: String,
@@ -58,7 +60,6 @@ public class PayWithTransactpay : AppCompatActivity() {
         }
     }
 
-    @SuppressLint("MissingInflatedId", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.processingpage)

@@ -49,6 +49,11 @@
     *;
 }
 
+# Picasso
+-keep class com.squareup.picasso.** { *; }
+-dontwarn com.squareup.picasso.**
+
+
 # Rules from missing_rules.txt to suppress warnings
 -dontwarn org.bouncycastle.jsse.BCSSLParameters
 -dontwarn org.bouncycastle.jsse.BCSSLSocket

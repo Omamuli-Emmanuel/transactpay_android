@@ -480,10 +480,10 @@
       jars="/Users/shippack/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/f955fc8b2ad196e2f4429598440e15f7492eeb2b/kotlinx-coroutines-android-1.6.4.jar"
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"/>
   <library
-      name="com.squareup.picasso:picasso:2.8@aar"
-      jars="/Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8/jars/classes.jar"
-      resolved="com.squareup.picasso:picasso:2.8"
-      folder="/Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8"
+      name="com.squareup.picasso:picasso:2.71828@aar"
+      jars="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/jars/classes.jar"
+      resolved="com.squareup.picasso:picasso:2.71828"
+      folder="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -526,19 +526,6 @@
       jars="/Users/shippack/.gradle/caches/8.10/transforms/0353e70c562814ce98a6421710371562/transformed/savedstate-1.2.1/jars/classes.jar"
       resolved="androidx.savedstate:savedstate:1.2.1"
       folder="/Users/shippack/.gradle/caches/8.10/transforms/0353e70c562814ce98a6421710371562/transformed/savedstate-1.2.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.exifinterface:exifinterface:1.0.0@aar"
-      jars="/Users/shippack/.gradle/caches/8.10/transforms/935647ab9ec939d86c9950ca8bee7df4/transformed/exifinterface-1.0.0/jars/classes.jar"
-      resolved="androidx.exifinterface:exifinterface:1.0.0"
-      folder="/Users/shippack/.gradle/caches/8.10/transforms/935647ab9ec939d86c9950ca8bee7df4/transformed/exifinterface-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -640,6 +627,23 @@
       name="org.jetbrains:annotations:13.0@jar"
       jars="/Users/shippack/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
       resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="com.android.support:exifinterface:27.1.0@aar"
+      jars="/Users/shippack/.gradle/caches/8.10/transforms/0bd05a08330f0d0cc8941723e933efbb/transformed/exifinterface-27.1.0/jars/classes.jar"
+      resolved="com.android.support:exifinterface:27.1.0"
+      folder="/Users/shippack/.gradle/caches/8.10/transforms/0bd05a08330f0d0cc8941723e933efbb/transformed/exifinterface-27.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.android.support:support-annotations:27.1.0@jar"
+      jars="/Users/shippack/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
+      resolved="com.android.support:support-annotations:27.1.0"/>
   <library
       name="androidx.compose.ui:ui-util-android:1.5.0@aar"
       jars="/Users/shippack/.gradle/caches/8.10/transforms/e77a5fb1183a432ea06474f1a5a78e88/transformed/ui-util-release/jars/classes.jar"

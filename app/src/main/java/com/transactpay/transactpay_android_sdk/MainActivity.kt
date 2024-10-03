@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val apiKey : String = "PGW-PUBLICKEY-43E1CE8C6A7149CE94A8A71D572AE414"
                // initiate pay with transct pay libraryn
 
-                val intent = PayWithTransactpay.PayWithTransactpayUtils.newIntent(
+                val intent = PayWithTransactpay().newIntent(
                     context = this@MainActivity,
                     firstName = fname,
                     lastName = lname,

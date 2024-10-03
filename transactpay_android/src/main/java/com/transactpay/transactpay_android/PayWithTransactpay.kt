@@ -26,10 +26,7 @@ import java.util.*
 
 class PayWithTransactpay : AppCompatActivity() {
 
-    object PayWithTransactpayUtils {
         private const val TAG = "ProcessingPage"
-
-        @JvmStatic
         fun newIntent(  // Explicitly made public
             context: Context,
             firstName: String,
@@ -58,7 +55,6 @@ class PayWithTransactpay : AppCompatActivity() {
                 putExtra("TransactionRef", transactionRef)
             }
         }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

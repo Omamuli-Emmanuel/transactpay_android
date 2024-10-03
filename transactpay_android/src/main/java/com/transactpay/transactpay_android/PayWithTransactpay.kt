@@ -27,7 +27,8 @@ import java.util.*
 class PayWithTransactpay : AppCompatActivity() {
 
         private val TAG = "ProcessingPage"
-        fun newIntent(  // Explicitly made public
+    companion object {
+        fun newIntent(
             context: Context,
             firstName: String,
             lastName: String,
@@ -35,7 +36,7 @@ class PayWithTransactpay : AppCompatActivity() {
             amount: String,
             email: String,
             apiKey: String,
-            EncryptionKey: String,
+            encryptionKey: String,
             initiatingActivityClass: Class<*>,
             successClass: Class<*>,
             failureClass: Class<*>,
@@ -48,13 +49,14 @@ class PayWithTransactpay : AppCompatActivity() {
                 putExtra("AMOUNT", amount)
                 putExtra("EMAIL", email)
                 putExtra("API_KEY", apiKey)
-                putExtra("XMLKEY", EncryptionKey)
+                putExtra("XMLKEY", encryptionKey)
                 putExtra("INITIATING_ACTIVITY_CLASS", initiatingActivityClass)
                 putExtra("SUCCESS_CLASS", successClass)
                 putExtra("FAILURE_CLASS", failureClass)
                 putExtra("TransactionRef", transactionRef)
             }
         }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

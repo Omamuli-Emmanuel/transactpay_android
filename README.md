@@ -49,7 +49,7 @@ Ensure your main activity extends `AppCompatActivity`. In this activity, you wil
 
 ### Starting a Payment Transaction
 
-Use the following code to start a payment transaction. The SDK requires several parameters that you will pass via `Intent`.
+Use the following code to start a payment transaction. The SDK requires several parameters that you will pass via `Intent` (Kotlin).
 
 ```kotlin
 val intent = Intent(this@MainActivity, PayWithTransactpay::class.java).apply {
@@ -66,6 +66,23 @@ val intent = Intent(this@MainActivity, PayWithTransactpay::class.java).apply {
     putExtra("TransactionRef", reference)
 }
 startActivity(intent)
+```
+Use the following code to start a payment transaction. The SDK requires several parameters that you will pass via `Intent` (Java).
+```
+Intent intent = new Intent(this, PayWithTransactpay.class);
+intent.putExtra("Fname", firstName);
+intent.putExtra("Lname", lastName);
+intent.putExtra("Phone", phoneNumber);
+intent.putExtra("AMOUNT", amount);
+intent.putExtra("EMAIL", email);
+intent.putExtra("API_KEY", apiKey);
+intent.putExtra("XMLKEY", encryptionKey);
+intent.putExtra("INITIATING_ACTIVITY_CLASS", MainActivity.class);
+intent.putExtra("SUCCESS_CLASS", Success.class);
+intent.putExtra("FAILURE_CLASS", Failed.class);
+intent.putExtra("TransactionRef", reference);
+startActivity(intent);
+
 ```
 ## Parameters
 

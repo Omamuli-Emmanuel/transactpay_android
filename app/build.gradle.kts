@@ -50,7 +50,7 @@ android {
 }
 
 dependencies{
-//    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.4.6-stable")
+//    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.4.8-stable")
     implementation(project(":transactpay_android"))
     implementation("com.squareup.okhttp3:okhttp:4.9.1")
     implementation(libs.androidx.core.ktx)

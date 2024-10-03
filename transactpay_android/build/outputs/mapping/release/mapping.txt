@@ -2,8 +2,8 @@
 # compiler_version: 8.5.27
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: 3dd621c
-# pg_map_hash: SHA-256 3dd621cd2d6780cd9c473738a54bd8dfb5558bf255d24f46e6b91561b9d3a074
+# pg_map_id: 18157bc
+# pg_map_hash: SHA-256 18157bc4da0847ced9712dec4558932bbaae1aad68c006206f35610c961127f4
 com.transactpay.transactpay_android.Bank -> a.a:
 # {"id":"sourceFile","fileName":"Bank.kt"}
     java.lang.String name -> a
@@ -27,7 +27,7 @@ com.transactpay.transactpay_android.BankSpinnerAdapter -> com.transactpay.transa
 com.transactpay.transactpay_android.BankTransfer -> com.transactpay.transactpay_android.BankTransfer:
 # {"id":"sourceFile","fileName":"BankTransfer.kt"}
     android.widget.TextView countdownTextView -> a
-    boolean orderStatus -> b
+    java.lang.String orderStatus -> b
     1:1:java.lang.Object pollCheckTransaction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,kotlin.coroutines.Continuation):0:0 -> a
     1:1:java.lang.Object access$pollCheckTransaction(com.transactpay.transactpay_android.BankTransfer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,kotlin.coroutines.Continuation):0 -> a
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/transactpay/transactpay_android/BankTransfer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"}
@@ -50,12 +50,15 @@ com.transactpay.transactpay_android.BankTransfer$onCreate$1 -> a.d:
     1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
     1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
     1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
-    1:1:boolean com.transactpay.transactpay_android.BankTransfer.access$getOrderStatus$p(com.transactpay.transactpay_android.BankTransfer):0:0 -> invokeSuspend
+    1:1:java.lang.String com.transactpay.transactpay_android.BankTransfer.access$getOrderStatus$p(com.transactpay.transactpay_android.BankTransfer):0:0 -> invokeSuspend
     1:1:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
     2:2:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
-    3:3:void com.transactpay.transactpay_android.BankTransfer.access$setOrderStatus$p(com.transactpay.transactpay_android.BankTransfer,boolean):0:0 -> invokeSuspend
+    3:3:void com.transactpay.transactpay_android.BankTransfer.access$setOrderStatus$p(com.transactpay.transactpay_android.BankTransfer,java.lang.String):0:0 -> invokeSuspend
     3:3:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
     4:4:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+    5:5:void com.transactpay.transactpay_android.BankTransfer.access$setOrderStatus$p(com.transactpay.transactpay_android.BankTransfer,java.lang.String):0:0 -> invokeSuspend
+    5:5:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
+    6:6:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
 com.transactpay.transactpay_android.BankTransfer$onCreate$1$1 -> a.b:
 # {"id":"sourceFile","fileName":"BankTransfer.kt"}
     org.json.JSONObject $jObject -> a
@@ -192,7 +195,8 @@ com.transactpay.transactpay_android.EncryptionUtils -> a.k:
     1:1:java.security.PublicKey rsaPublicKeyFromXml(java.lang.String):0:0 -> b
 com.transactpay.transactpay_android.PayWithTransactpay -> com.transactpay.transactpay_android.PayWithTransactpay:
 # {"id":"sourceFile","fileName":"PayWithTransactpay.kt"}
-    int $r8$clinit -> a
+    java.lang.String TAG -> a
+    int $r8$clinit -> b
       # {"id":"com.android.tools.r8.synthesized"}
     1:1:java.lang.String generateReferenceNumber():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
@@ -207,7 +211,7 @@ com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1 -> a.m:
     java.lang.String $mobile -> f
     java.lang.String $email -> g
     java.lang.Integer $amount -> h
-    java.lang.String $referenceNumber -> i
+    kotlin.jvm.internal.Ref$ObjectRef $referenceNumber -> i
     java.lang.String $apiKey -> j
     java.lang.String $rsaPublicKeyXml -> k
     java.lang.Class $failureClass -> l
@@ -215,8 +219,8 @@ com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1 -> a.m:
     java.lang.String $hashKey -> n
     java.lang.Class $initiatingClass -> o
     java.lang.Class $successClass -> p
-    1:1:void <init>(com.transactpay.transactpay_android.PayWithTransactpay,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,java.lang.String,java.lang.String,java.lang.Class,java.lang.Class,kotlin.coroutines.Continuation):0:0 -> <init>
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/transactpay/transactpay_android/PayWithTransactpay;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;Lkotlin/coroutines/Continuation;)V"}
+    1:1:void <init>(com.transactpay.transactpay_android.PayWithTransactpay,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,kotlin.jvm.internal.Ref$ObjectRef,java.lang.String,java.lang.String,java.lang.Class,java.lang.String,java.lang.String,java.lang.Class,java.lang.Class,kotlin.coroutines.Continuation):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lcom/transactpay/transactpay_android/PayWithTransactpay;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Lkotlin/jvm/internal/Ref$ObjectRef;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Class;Lkotlin/coroutines/Continuation;)V"}
     1:1:kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation):0:0 -> create
     1:1:java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
     1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
@@ -226,6 +230,15 @@ com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1 -> a.m:
     2:2:java.lang.Object com.transactpay.transactpay_android.PayWithTransactpay.access$postEncryptedPayload(com.transactpay.transactpay_android.PayWithTransactpay,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,kotlin.coroutines.Continuation):0 -> invokeSuspend
     2:2:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
     3:3:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+    4:4:java.lang.String com.transactpay.transactpay_android.PayWithTransactpay.access$getTAG$p(com.transactpay.transactpay_android.PayWithTransactpay):0:0 -> invokeSuspend
+    4:4:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
+    5:5:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+    6:6:java.lang.String com.transactpay.transactpay_android.PayWithTransactpay.access$getTAG$p(com.transactpay.transactpay_android.PayWithTransactpay):0:0 -> invokeSuspend
+    6:6:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
+    7:7:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+    8:8:java.lang.String com.transactpay.transactpay_android.PayWithTransactpay.access$getTAG$p(com.transactpay.transactpay_android.PayWithTransactpay):0:0 -> invokeSuspend
+    8:8:java.lang.Object invokeSuspend(java.lang.Object):0 -> invokeSuspend
+    9:9:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
 com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1$1 -> a.l:
 # {"id":"sourceFile","fileName":"PayWithTransactpay.kt"}
     com.transactpay.transactpay_android.PayWithTransactpay this$0 -> a

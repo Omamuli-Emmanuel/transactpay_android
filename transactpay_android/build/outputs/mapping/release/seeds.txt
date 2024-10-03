@@ -1,104 +1,104 @@
-com.transactpay.transactpay_android.R$drawable
-com.transactpay.transactpay_android.CardActivity
-com.transactpay.transactpay_android.BankTransfer
-com.transactpay.transactpay_android.R$mipmap
-com.transactpay.transactpay_android.R$id
-com.transactpay.transactpay_android.R$string
-com.transactpay.transactpay_android.SelectBank
-com.transactpay.transactpay_android.PayWithTransactpay
-com.transactpay.transactpay_android.CardAuthentication
-com.transactpay.transactpay_android.Transactpay_start
-com.transactpay.transactpay_android.R$style
-com.transactpay.transactpay_android.R
 com.transactpay.transactpay_android.R$layout
+com.transactpay.transactpay_android.R$style
+com.transactpay.transactpay_android.R$drawable
+com.transactpay.transactpay_android.SelectBank
+com.transactpay.transactpay_android.R$id
+com.transactpay.transactpay_android.PayWithTransactpay
+com.transactpay.transactpay_android.BankTransfer
 com.transactpay.transactpay_android.R$color
+com.transactpay.transactpay_android.R$mipmap
+com.transactpay.transactpay_android.R
 com.transactpay.transactpay_android.R$array
-com.transactpay.transactpay_android.R$id: int emailTextView
-com.transactpay.transactpay_android.R$id: int changePaymentOption
-com.transactpay.transactpay_android.R$color: int purple_500
-com.transactpay.transactpay_android.R$layout: int activity_card
-com.transactpay.transactpay_android.R$layout: int selectbank
-com.transactpay.transactpay_android.R$id: int viewAccount
-com.transactpay.transactpay_android.R$color: int purple_700
-com.transactpay.transactpay_android.R$id: int progress_bar
-com.transactpay.transactpay_android.R$id: int cvv
-com.transactpay.transactpay_android.R$id: int showFees
-com.transactpay.transactpay_android.R$drawable: int backagain_24
-com.transactpay.transactpay_android.R$id: int cardNumber
-com.transactpay.transactpay_android.R$drawable: int square_background
-com.transactpay.transactpay_android.R$id: int amountTextView
-com.transactpay.transactpay_android.R$layout: int bank_transfer
-com.transactpay.transactpay_android.R$layout: int transactpay_start
-com.transactpay.transactpay_android.R$id: int bankName
-com.transactpay.transactpay_android.R$drawable: int lock_24
-com.transactpay.transactpay_android.R$drawable: int progress_bar
-com.transactpay.transactpay_android.R$id: int completeText
-com.transactpay.transactpay_android.R$layout: int processingpage
-com.transactpay.transactpay_android.R$color: int white
-com.transactpay.transactpay_android.R$drawable: int mastercard
-com.transactpay.transactpay_android.R$color: int purple_200
-com.transactpay.transactpay_android.R$color: int black
-com.transactpay.transactpay_android.R$style: int Theme_Transactpay_android_sdk
+com.transactpay.transactpay_android.CardAuthentication
+com.transactpay.transactpay_android.R$string
+com.transactpay.transactpay_android.Transactpay_start
+com.transactpay.transactpay_android.CardActivity
 com.transactpay.transactpay_android.R$id: int cancelPayment
-com.transactpay.transactpay_android.R$id: int webview
-com.transactpay.transactpay_android.R$drawable: int baseline_credit_card_24
-com.transactpay.transactpay_android.R$id: int bankNameTextView
-com.transactpay.transactpay_android.R$color: int transactpay
-com.transactpay.transactpay_android.R$id: int bankDropdown
-com.transactpay.transactpay_android.R$id: int accountDetails
-com.transactpay.transactpay_android.R$id: int parent
-com.transactpay.transactpay_android.R$id: int openCard
-com.transactpay.transactpay_android.R$drawable: int ic_launcher_foreground
-com.transactpay.transactpay_android.R$drawable: int visa
-com.transactpay.transactpay_android.R$color: int teal_700
 com.transactpay.transactpay_android.R$style: int CustomCircularProgressBar
-com.transactpay.transactpay_android.R$drawable: int ic_launcher_background
-com.transactpay.transactpay_android.R$drawable: int rounded_background
-com.transactpay.transactpay_android.R$id: int Banktrasfer
-com.transactpay.transactpay_android.R$id: int merchantNameTextView
-com.transactpay.transactpay_android.R$mipmap: int ic_launcher
-com.transactpay.transactpay_android.R$layout: int spinner_item
-com.transactpay.transactpay_android.R$id: int makePayment
-com.transactpay.transactpay_android.R$mipmap: int ic_launcher_round
-com.transactpay.transactpay_android.R$layout: int cardauthentication
-com.transactpay.transactpay_android.R$id: int bankLogoImageView
-com.transactpay.transactpay_android.R$drawable: int failed_24
-com.transactpay.transactpay_android.R$drawable: int confirming_24
-com.transactpay.transactpay_android.R$drawable: int transactpay
-com.transactpay.transactpay_android.R$id: int countdown
-com.transactpay.transactpay_android.R$drawable: int baseline_near_me_24
-com.transactpay.transactpay_android.R$drawable: int rounded_edittext
-com.transactpay.transactpay_android.R$array: int modes_array
-com.transactpay.transactpay_android.R$drawable: int progress_bar_indeterminate
-com.transactpay.transactpay_android.R$drawable: int verve
-com.transactpay.transactpay_android.R$id: int shopName
-com.transactpay.transactpay_android.R$id: int thisFee
-com.transactpay.transactpay_android.R$id: int selectBank
-com.transactpay.transactpay_android.R$id: int payButton
-com.transactpay.transactpay_android.R$drawable: int cancel_24
-com.transactpay.transactpay_android.R$drawable: int card_24
-com.transactpay.transactpay_android.R$id: int processing
-com.transactpay.transactpay_android.R$id: int backToOptions
-com.transactpay.transactpay_android.R$id: int image_view
-com.transactpay.transactpay_android.R$drawable: int change_24
-com.transactpay.transactpay_android.R$id: int accountNumber
-com.transactpay.transactpay_android.R$color: int teal_200
-com.transactpay.transactpay_android.R$id: int expirey
-com.transactpay.transactpay_android.R$drawable: int back_24
+com.transactpay.transactpay_android.R$layout: int transactpay_start
 com.transactpay.transactpay_android.R$string: int app_name
+com.transactpay.transactpay_android.R$layout: int spinner_item
+com.transactpay.transactpay_android.R$drawable: int failed_24
+com.transactpay.transactpay_android.R$color: int purple_700
+com.transactpay.transactpay_android.R$color: int purple_200
+com.transactpay.transactpay_android.R$style: int Theme_Transactpay_android_sdk
+com.transactpay.transactpay_android.R$id: int countdown
+com.transactpay.transactpay_android.R$id: int backToOptions
+com.transactpay.transactpay_android.R$layout: int processingpage
+com.transactpay.transactpay_android.R$id: int cardNumber
+com.transactpay.transactpay_android.R$id: int processing
+com.transactpay.transactpay_android.R$drawable: int visa
+com.transactpay.transactpay_android.R$drawable: int mastercard
+com.transactpay.transactpay_android.R$drawable: int confirming_24
+com.transactpay.transactpay_android.R$drawable: int backagain_24
+com.transactpay.transactpay_android.R$id: int webview
+com.transactpay.transactpay_android.R$id: int parent
+com.transactpay.transactpay_android.R$color: int black
+com.transactpay.transactpay_android.R$drawable: int back_24
+com.transactpay.transactpay_android.R$drawable: int progress_bar_indeterminate
+com.transactpay.transactpay_android.R$id: int amountTextView
+com.transactpay.transactpay_android.R$id: int merchantNameTextView
+com.transactpay.transactpay_android.R$id: int payButton
+com.transactpay.transactpay_android.R$drawable: int progress_bar
+com.transactpay.transactpay_android.R$color: int transactpay
+com.transactpay.transactpay_android.R$mipmap: int ic_launcher
+com.transactpay.transactpay_android.R$drawable: int ic_launcher_foreground
+com.transactpay.transactpay_android.R$id: int accountDetails
+com.transactpay.transactpay_android.R$id: int viewAccount
+com.transactpay.transactpay_android.R$drawable: int cancel_24
+com.transactpay.transactpay_android.R$drawable: int rounded_edittext
+com.transactpay.transactpay_android.R$id: int changePaymentOption
+com.transactpay.transactpay_android.R$id: int Banktrasfer
+com.transactpay.transactpay_android.R$id: int bankNameTextView
+com.transactpay.transactpay_android.R$color: int teal_200
+com.transactpay.transactpay_android.R$drawable: int baseline_near_me_24
+com.transactpay.transactpay_android.R$drawable: int verve
+com.transactpay.transactpay_android.R$id: int cvv
+com.transactpay.transactpay_android.R$id: int progress_bar
+com.transactpay.transactpay_android.R$drawable: int card_24
+com.transactpay.transactpay_android.R$id: int bankName
+com.transactpay.transactpay_android.R$drawable: int rounded_background
+com.transactpay.transactpay_android.R$drawable: int change_24
+com.transactpay.transactpay_android.R$id: int completeText
+com.transactpay.transactpay_android.R$id: int showFees
+com.transactpay.transactpay_android.R$id: int accountNumber
+com.transactpay.transactpay_android.R$drawable: int baseline_credit_card_24
+com.transactpay.transactpay_android.R$layout: int selectbank
+com.transactpay.transactpay_android.R$id: int shopName
+com.transactpay.transactpay_android.R$array: int modes_array
+com.transactpay.transactpay_android.R$id: int emailTextView
+com.transactpay.transactpay_android.R$id: int selectBank
 com.transactpay.transactpay_android.R$drawable: int rounded_button
-com.transactpay.transactpay_android.R$drawable: R$drawable()
+com.transactpay.transactpay_android.R$color: int teal_700
+com.transactpay.transactpay_android.R$layout: int cardauthentication
+com.transactpay.transactpay_android.R$layout: int bank_transfer
+com.transactpay.transactpay_android.R$color: int white
+com.transactpay.transactpay_android.R$layout: int activity_card
+com.transactpay.transactpay_android.R$id: int bankDropdown
+com.transactpay.transactpay_android.R$mipmap: int ic_launcher_round
+com.transactpay.transactpay_android.R$id: int thisFee
+com.transactpay.transactpay_android.R$drawable: int square_background
+com.transactpay.transactpay_android.R$drawable: int lock_24
+com.transactpay.transactpay_android.R$id: int makePayment
+com.transactpay.transactpay_android.R$id: int expirey
+com.transactpay.transactpay_android.R$drawable: int transactpay
+com.transactpay.transactpay_android.R$id: int image_view
+com.transactpay.transactpay_android.R$id: int openCard
+com.transactpay.transactpay_android.R$color: int purple_500
+com.transactpay.transactpay_android.R$drawable: int ic_launcher_background
+com.transactpay.transactpay_android.R$id: int bankLogoImageView
+com.transactpay.transactpay_android.SelectBank: SelectBank()
+com.transactpay.transactpay_android.R$style: R$style()
+com.transactpay.transactpay_android.CardActivity: CardActivity()
+com.transactpay.transactpay_android.R$mipmap: R$mipmap()
+com.transactpay.transactpay_android.R$color: R$color()
+com.transactpay.transactpay_android.CardAuthentication: CardAuthentication()
 com.transactpay.transactpay_android.PayWithTransactpay: PayWithTransactpay()
 com.transactpay.transactpay_android.R$array: R$array()
-com.transactpay.transactpay_android.CardActivity: CardActivity()
-com.transactpay.transactpay_android.Transactpay_start: Transactpay_start()
-com.transactpay.transactpay_android.R: R()
-com.transactpay.transactpay_android.R$mipmap: R$mipmap()
-com.transactpay.transactpay_android.R$style: R$style()
-com.transactpay.transactpay_android.CardAuthentication: CardAuthentication()
-com.transactpay.transactpay_android.SelectBank: SelectBank()
-com.transactpay.transactpay_android.R$string: R$string()
-com.transactpay.transactpay_android.R$color: R$color()
-com.transactpay.transactpay_android.R$id: R$id()
 com.transactpay.transactpay_android.BankTransfer: BankTransfer()
+com.transactpay.transactpay_android.R: R()
+com.transactpay.transactpay_android.R$id: R$id()
+com.transactpay.transactpay_android.Transactpay_start: Transactpay_start()
+com.transactpay.transactpay_android.R$string: R$string()
 com.transactpay.transactpay_android.R$layout: R$layout()
+com.transactpay.transactpay_android.R$drawable: R$drawable()

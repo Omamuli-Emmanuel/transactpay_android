@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.transactpay.transactpay_android-release-44:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.transactpay.transactpay_android-appcompat-1.7.0-11:/layout-v26/abc_screen_toolbar.xml"
+    }
+]

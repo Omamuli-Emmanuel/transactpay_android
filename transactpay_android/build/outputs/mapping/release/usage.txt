@@ -12,11 +12,9 @@ com.transactpay.transactpay_android.CardActivity:
 com.transactpay.transactpay_android.EncryptionUtils:
     public static final int $stable
     private static final java.lang.String TAG
-com.transactpay.transactpay_android.PayWithTransactpay$Companion:
-    public final android.content.Intent newIntent(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,java.lang.Class,java.lang.Class)
 com.transactpay.transactpay_android.PayWithTransactpay:
     public static final int $stable
-    private static final java.lang.String TAG
+    public final android.content.Intent newIntent(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,java.lang.Class,java.lang.Class,java.lang.String)
 com.transactpay.transactpay_android.SelectBank:
     private static final java.lang.String TAG
 com.transactpay.transactpay_android.Transactpay_start:
@@ -68,14 +66,12 @@ com.transactpay.transactpay_android.EncryptionUtils:
     public static final com.transactpay.transactpay_android.EncryptionUtils INSTANCE
     static void <clinit>()
     public void <init>()
-com.transactpay.transactpay_android.PayWithTransactpay$Companion
 com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1$1:
     public int label
     public static java.lang.Object invoke()
 com.transactpay.transactpay_android.PayWithTransactpay$onCreate$1:
     public static java.lang.Object invoke()
 com.transactpay.transactpay_android.PayWithTransactpay:
-    public static final com.transactpay.transactpay_android.PayWithTransactpay$Companion Companion
     static void <clinit>()
     public static java.lang.String generateReferenceNumber()
     public static java.lang.Object postEncryptedPayload()

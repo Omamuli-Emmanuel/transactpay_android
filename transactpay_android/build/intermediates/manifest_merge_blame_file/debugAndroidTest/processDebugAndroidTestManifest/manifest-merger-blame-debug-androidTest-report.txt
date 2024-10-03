@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.transactpay.transactpay_android.test" >
+4
+5    <uses-sdk
+5-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:11:5-15:90
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:13:22-53
+13        android:label="Tests for com.transactpay.transactpay_android.test"
+13-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:15:22-88
+14        android:targetPackage="com.transactpay.transactpay_android.test" />
+14-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:12:22-86
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+16-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-64
+17
+18    <queries>
+18-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:24:5-28:15
+19        <package android:name="androidx.test.orchestrator" />
+19-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:25:9-62
+19-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:25:18-59
+20        <package android:name="androidx.test.services" />
+20-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:26:9-58
+20-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:26:18-55
+21        <package android:name="com.google.android.apps.common.testing.services" />
+21-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:27:9-83
+21-->[androidx.test:runner:1.5.2] /Users/shippack/.gradle/caches/8.10/transforms/3b7e7d119108fcbb6b146ba7c31bbb4b/transformed/runner-1.5.2/AndroidManifest.xml:27:18-80
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.REORDER_TASKS" />
+24-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:24:5-72
+24-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:24:22-69
+25
+26    <permission
+26-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.transactpay.transactpay_android.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.transactpay.transactpay_android.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:7:5-9:19
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.13.0] /Users/shippack/.gradle/caches/8.10/transforms/4d6c55b83eae93766f7745d25d0785ac/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="true" >
+36        <uses-library android:name="android.test.runner" />
+36-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:8:9-60
+36-->/Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18075411470559455755.xml:8:23-57
+37        <!-- Library Activities -->
+38        <activity
+38-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:9-16:68
+39            android:name="com.transactpay.transactpay_android.Transactpay_start"
+39-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-81
+40            android:exported="true"
+40-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-36
+41            android:label="@string/app_name"
+41-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-45
+42            android:theme="@style/Theme.Transactpay_android_sdk" />
+42-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-65
+43        <activity
+43-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:9-20:68
+44            android:name="com.transactpay.transactpay_android.CardActivity"
+44-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-76
+45            android:label="@string/app_name"
+45-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-45
+46            android:theme="@style/Theme.Transactpay_android_sdk" />
+46-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-65
+47        <activity
+47-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:9-24:68
+48            android:name="com.transactpay.transactpay_android.PayWithTransactpay"
+48-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-82
+49            android:label="@string/app_name"
+49-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:23:13-45
+50            android:theme="@style/Theme.Transactpay_android_sdk" />
+50-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-65
+51        <activity
+51-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:9-28:68
+52            android:name="com.transactpay.transactpay_android.BankTransfer"
+52-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:26:13-76
+53            android:label="@string/app_name"
+53-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:27:13-45
+54            android:theme="@style/Theme.Transactpay_android_sdk" />
+54-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-65
+55        <activity
+55-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:9-32:68
+56            android:name="com.transactpay.transactpay_android.SelectBank"
+56-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:13-74
+57            android:label="@string/app_name"
+57-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:31:13-45
+58            android:theme="@style/Theme.Transactpay_android_sdk" />
+58-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:32:13-65
+59        <activity
+59-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:33:9-36:68
+60            android:name="com.transactpay.transactpay_android.CardAuthentication"
+60-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:34:13-82
+61            android:label="@string/app_name"
+61-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:35:13-45
+62            android:theme="@style/Theme.Transactpay_android_sdk" />
+62-->[:transactpay_android] /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:36:13-65
+63        <activity
+63-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/6078764e0f332798013e7e60cdad14c9/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+64            android:name="androidx.compose.ui.tooling.PreviewActivity"
+64-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/6078764e0f332798013e7e60cdad14c9/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+65            android:exported="true" />
+65-->[androidx.compose.ui:ui-tooling-android:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/6078764e0f332798013e7e60cdad14c9/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+66        <activity
+66-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/0b5400b46113978675b8af08569ee781/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:23:9-25:39
+67            android:name="androidx.activity.ComponentActivity"
+67-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/0b5400b46113978675b8af08569ee781/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:24:13-63
+68            android:exported="true" />
+68-->[androidx.compose.ui:ui-test-manifest:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/0b5400b46113978675b8af08569ee781/transformed/ui-test-manifest-1.5.0/AndroidManifest.xml:25:13-36
+69        <activity
+69-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:27:9-34:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+70-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:28:13-99
+71            android:exported="true"
+71-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:29:13-36
+72            android:theme="@style/WhiteBackgroundTheme" >
+72-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:30:13-56
+73            <intent-filter android:priority="-100" >
+73-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+73-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+74-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:35:9-42:20
+78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+78-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:36:13-95
+79            android:exported="true"
+79-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:37:13-36
+80            android:theme="@style/WhiteBackgroundTheme" >
+80-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:38:13-56
+81            <intent-filter android:priority="-100" >
+81-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+81-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+82-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:43:9-50:20
+86            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+86-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:44:13-103
+87            android:exported="true"
+87-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:45:13-36
+88            android:theme="@style/WhiteBackgroundDialogTheme" >
+88-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:46:13-62
+89            <intent-filter android:priority="-100" >
+89-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:13-33:29
+89-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:31:28-51
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:17-77
+90-->[androidx.test:core:1.5.0] /Users/shippack/.gradle/caches/8.10/transforms/e33ad850ef426dec99d92bbf04a8e483/transformed/core-1.5.0/AndroidManifest.xml:32:27-74
+91            </intent-filter>
+92        </activity>
+93
+94        <provider
+94-->[com.squareup.picasso:picasso:2.8] /Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+95            android:name="com.squareup.picasso.PicassoProvider"
+95-->[com.squareup.picasso:picasso:2.8] /Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+96            android:authorities="com.transactpay.transactpay_android.test.com.squareup.picasso"
+96-->[com.squareup.picasso:picasso:2.8] /Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+97            android:exported="false" />
+97-->[com.squareup.picasso:picasso:2.8] /Users/shippack/.gradle/caches/8.10/transforms/cc722f8c3f34c1deab2aa75691767cdb/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+98        <provider
+98-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+100            android:authorities="com.transactpay.transactpay_android.test.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.4.0] /Users/shippack/.gradle/caches/8.10/transforms/16aa5f7de22ea4c85a58e159256bafa6/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shippack/.gradle/caches/8.10/transforms/99aa2021b7357b4541e096e4299acc30/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shippack/.gradle/caches/8.10/transforms/99aa2021b7357b4541e096e4299acc30/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/shippack/.gradle/caches/8.10/transforms/99aa2021b7357b4541e096e4299acc30/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/shippack/.gradle/caches/8.10/transforms/458fd593aa76c43898abc9238634dc36/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>

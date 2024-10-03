@@ -158,6 +158,21 @@
 -dontwarn org.openjsse.javax.net.ssl.SSLSocket
 -dontwarn org.openjsse.net.ssl.OpenJSSE
 # End of content from /Users/shippack/StudioProjects/transactpay_android_sdk/transactpay_android/proguard-rules.pro
+# The proguard configuration file for the following section is /Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/proguard.txt
+### OKHTTP
+
+# Platform calls Class.forName on types which do not exist on Android to determine platform.
+-dontnote okhttp3.internal.Platform
+
+
+### OKIO
+
+# java.nio.file.* usage which cannot be used at runtime. Animal sniffer annotation.
+-dontwarn okio.Okio
+# JDK 7-only method which is @hide on Android. Animal sniffer annotation.
+-dontwarn okio.DeflaterSink
+
+# End of content from /Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/proguard.txt
 # The proguard configuration file for the following section is /Users/shippack/.gradle/caches/8.10/transforms/4c91c875bdac39233cb6885089323d03/transformed/appcompat-1.7.0/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
@@ -408,21 +423,6 @@
 }
 
 # End of content from /Users/shippack/.gradle/caches/8.10/transforms/08618b8686e75a765fd6571a993540c6/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
-# The proguard configuration file for the following section is /Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/proguard.txt
-### OKHTTP
-
-# Platform calls Class.forName on types which do not exist on Android to determine platform.
--dontnote okhttp3.internal.Platform
-
-
-### OKIO
-
-# java.nio.file.* usage which cannot be used at runtime. Animal sniffer annotation.
--dontwarn okio.Okio
-# JDK 7-only method which is @hide on Android. Animal sniffer annotation.
--dontwarn okio.DeflaterSink
-
-# End of content from /Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/proguard.txt
 # The proguard configuration file for the following section is /Users/shippack/.gradle/caches/8.10/transforms/a5fd5bc46c445ab1150fbadc1d5ba3cf/transformed/rules/lib/META-INF/proguard/okhttp3.pro
 # JSR 305 annotations are for embedding nullability information.
 -dontwarn javax.annotation.**

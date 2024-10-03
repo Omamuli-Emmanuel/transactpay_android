@@ -113,7 +113,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("javax.xml.parsers:jaxp-api:1.4.5")
     implementation("com.squareup.picasso:picasso:2.8")
-    implementation("com.squareup.picasso:picasso:2.71828")
+    api("com.squareup.picasso:picasso:2.71828")
     implementation("androidx.core:core-ktx:1.10.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.0")
     implementation("androidx.activity:activity-compose:1.7.2")

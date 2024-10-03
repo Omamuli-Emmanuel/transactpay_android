@@ -1,5 +1,18 @@
 <libraries>
   <library
+      name="com.squareup.picasso:picasso:2.71828@aar"
+      jars="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/jars/classes.jar"
+      resolved="com.squareup.picasso:picasso:2.71828"
+      folder="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.appcompat:appcompat-resources:1.7.0@aar"
       jars="/Users/shippack/.gradle/caches/8.10/transforms/af650ce1c4e9ec1c3030964c0d398e0f/transformed/appcompat-resources-1.7.0/jars/classes.jar"
       resolved="androidx.appcompat:appcompat-resources:1.7.0"
@@ -479,19 +492,6 @@
       name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4@jar"
       jars="/Users/shippack/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4/f955fc8b2ad196e2f4429598440e15f7492eeb2b/kotlinx-coroutines-android-1.6.4.jar"
       resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"/>
-  <library
-      name="com.squareup.picasso:picasso:2.71828@aar"
-      jars="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828/jars/classes.jar"
-      resolved="com.squareup.picasso:picasso:2.71828"
-      folder="/Users/shippack/.gradle/caches/8.10/transforms/1391dc3d875d1432a76ebd205ae994f7/transformed/picasso-2.71828"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
   <library
       name="com.squareup.okhttp3:okhttp:4.9.1@jar"
       jars="/Users/shippack/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.9.1/51215279c3fe472c59b6b7dd7491e6ac2e28a81b/okhttp-4.9.1.jar"

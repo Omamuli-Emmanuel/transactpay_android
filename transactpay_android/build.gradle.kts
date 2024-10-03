@@ -27,6 +27,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -52,11 +53,14 @@ tasks.register<Wrapper>("wrapper") {
     gradleVersion = "8.1"
 }
 
+// Ensure the AAR is built before publishing
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
+                // Specify the AAR file directly
                 artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+
                 groupId = "com.github.Omamuli-Emmanuel"
                 artifactId = "transactpay_android"
                 version = "0.0.1"
@@ -93,6 +97,11 @@ afterEvaluate {
         repositories {
             mavenLocal()
         }
+    }
+
+    // Ensure bundleReleaseAar runs before publishMavenPublicationToMavenLocal
+    tasks.named("publishMavenPublicationToMavenLocal") {
+        dependsOn("bundleReleaseAar")
     }
 }
 

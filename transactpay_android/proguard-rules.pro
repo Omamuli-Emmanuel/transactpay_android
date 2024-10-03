@@ -19,3 +19,32 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep the entire PayWithTransactpay class and its methods
+-keep class com.transactpay.transactpay_android.PayWithTransactpay {
+    *;
+}
+
+# Keep the companion object of PayWithTransactpay and the newIntent method
+-keepclassmembers class com.transactpay.transactpay_android.PayWithTransactpay$Companion {
+    public static *** newIntent(...);
+}
+
+# Keep the Success and Failed classes to avoid obfuscation
+-keep class com.transactpay.transactpay_android.Success {
+    *;
+}
+
+-keep class com.transactpay.transactpay_android.Failed {
+    *;
+}
+
+# Avoid obfuscating Kotlin companion objects in general
+-keepclassmembers class * {
+    companion object;
+}
+
+# If you use reflection, ensure to preserve those methods
+-keepclassmembers class * {
+    *;
+}

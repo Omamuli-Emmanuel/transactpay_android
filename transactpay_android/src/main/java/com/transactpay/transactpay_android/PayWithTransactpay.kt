@@ -26,8 +26,9 @@ import java.util.*
 
 class PayWithTransactpay : AppCompatActivity() {
 
-        private val TAG = "ProcessingPage"
-    companion object {
+    private val TAG = "ProcessingPage"
+    @Keep
+    object PayWithTransactpayObject {
         fun newIntent(
             context: Context,
             firstName: String,

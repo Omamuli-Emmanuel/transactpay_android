@@ -39,10 +39,8 @@ android {
         kotlinCompilerExtensionVersion = "1.5.15"
     }
 
-    packaging {
-        resources {
-            excludes.add("/META-INF/{AL2.0,LGPL2.1}")
-        }
+    packagingOptions {
+        excludes -= "/META-INF/*.kotlin_module"
     }
 
     testOptions {

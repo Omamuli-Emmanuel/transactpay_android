@@ -50,9 +50,10 @@ android {
 }
 
 dependencies{
-//    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.5.9-stable-alpha")
+//    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.6.0-stable-beta")
     implementation(project(":transactpay_android"))
     implementation("com.squareup.okhttp3:okhttp:4.9.1")
+    implementation("com.squareup.picasso:picasso:2.71828")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

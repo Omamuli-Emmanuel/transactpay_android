@@ -94,7 +94,7 @@ class PayWithTransactpay : AppCompatActivity() {
         Log.d(TAG, apiKey)
 
         // Format the amount
-        val amount = amountString.toIntOrNull()
+        val amount = amountString.toFloatOrNull()
         val formattedAmount = amount?.let {
             val numberFormat = NumberFormat.getNumberInstance(Locale.getDefault())
             numberFormat.maximumFractionDigits = 2
@@ -179,7 +179,7 @@ class PayWithTransactpay : AppCompatActivity() {
         lastName: String?,
         mobile: String?,
         email: String?,
-        amount: Int?,
+        amount: Float?,
         ref: String,
         apiKey: String,
         publicKeyXml: String

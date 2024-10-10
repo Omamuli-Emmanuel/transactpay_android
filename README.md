@@ -1,4 +1,4 @@
-# Transactpay Android SDK Integration - v0.6.0-stable-beta
+# Transactpay Android SDK Integration - v0.6.1-stable-alpha
 
 The **Transactpay Android SDK** simplifies payment processing by providing a seamless way to initiate transactions with encryption support. This guide will walk you through the setup and usage of the SDK in your Android app.
 
@@ -32,7 +32,7 @@ To include the Transactpay Android SDK in your project, add the following depend
 
 ```gradle
 dependencies {
-    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.6.0-stable-beta")
+    implementation("com.github.Omamuli-Emmanuel:transactpay_android:v0.6.1-stable-alpha")
     implementation("com.squareup.picasso:picasso:2.71828")
 }
 ```
